@@ -122,6 +122,13 @@ MATCH (n) RETURN n para visualizar a rede.
 
 ## Evidências Visuais
 
-Visão Geral do Grafo
+Abaixo estão as capturas de tela das análises realizadas no Neo4j Browser.
 
-Análise de Risco (Destaque)
+| Visão Geral do Grafo (Network) | Análise de Risco (Conexões) |
+| :---: | :---: |
+| ![Visão Geral](./imagens/grafocompleto.png) | ![Análise de Risco](./imagens/analiserisco.png) |
+| *Representação da teia completa de 25 pessoas e transações interconectadas.* | *Destaque para o nó de risco e seus vínculos com inadimplentes.* |
+
+---
+
+> **Dica de Visualização:** No Neo4j Browser, utilizei a legenda de cores para identificar rapidamente o status de cada nó: **Azul** para clientes ativos, **Vermelho** para inadimplentes e **Amarelo** para transações financeiras.
